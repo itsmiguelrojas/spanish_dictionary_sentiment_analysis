@@ -74,6 +74,6 @@ sentiment_by(texto, polarity_dt = es_key)
 
 # Resultado
 #   element_id word_count sd ave_sentiment
-#1:          1          7 NA    -0.4677072
+#1:          1          7 NA    -0.4686759
 #2:          2          4 NA     0.7750000
 #3:          3          6 NA    -0.3354102
