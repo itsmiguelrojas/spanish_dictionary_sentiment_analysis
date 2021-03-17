@@ -62,6 +62,9 @@ is_key(es_dictionary) # FALSE
 es_key <- as_key(es_dictionary, comparison = NULL)
 is_key(es_key) # TRUE
 
+# Redondear valores de polaridad
+es_key$y <- round(es_key$y, 2)
+
 # Guardar key
 save(es_key, file = "es_key.Rda")
 
