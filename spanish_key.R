@@ -66,11 +66,11 @@ is_key(es_key) # TRUE
 save(es_key, file = "es_key.Rda")
 
 # Probar key
-texto <- c('No me ha encantado esta película.','Eres un verdadero amigo.','Todo esto es una porquería.')
+texto <- c('No me ha encantado esta película.','Eres un verdadero amigo.','Todo esto es muy malo.')
 sentiment_by(texto, polarity_dt = es_key)
 
 # Resultado
 #   element_id word_count sd ave_sentiment
 #1:          1          7 NA    -0.4677072
 #2:          2          4 NA     0.7750000
-#3:          3          6 NA     0.0000000
+#3:          3          6 NA    -0.3354102
